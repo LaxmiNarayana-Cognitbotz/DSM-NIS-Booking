@@ -1,0 +1,106 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1. Write bug condition exploration test": [
+      {
+        "executionId": "c004dfd3-6a46-482d-96c1-7b2a619efe5f",
+        "chatSessionId": "sess_3715612d-6d90-4536-948b-a5f11a24adf7",
+        "timestamp": 1784269646974
+      },
+      {
+        "executionId": "c004dfd3-6a46-482d-96c1-7b2a619efe5f",
+        "chatSessionId": "sess_3715612d-6d90-4536-948b-a5f11a24adf7",
+        "timestamp": 1784269657349
+      }
+    ],
+    "2. Write preservation property tests (BEFORE implementing fix)": [
+      {
+        "executionId": "c004dfd3-6a46-482d-96c1-7b2a619efe5f",
+        "chatSessionId": "sess_3715612d-6d90-4536-948b-a5f11a24adf7",
+        "timestamp": 1784269647203
+      },
+      {
+        "executionId": "c004dfd3-6a46-482d-96c1-7b2a619efe5f",
+        "chatSessionId": "sess_3715612d-6d90-4536-948b-a5f11a24adf7",
+        "timestamp": 1784269658101
+      }
+    ],
+    "3.1 Modify `_save_email_to_booking_folder()` to create per-SPV folders": [
+      {
+        "executionId": "c004dfd3-6a46-482d-96c1-7b2a619efe5f",
+        "chatSessionId": "sess_3715612d-6d90-4536-948b-a5f11a24adf7",
+        "timestamp": 1784269647299
+      },
+      {
+        "executionId": "c004dfd3-6a46-482d-96c1-7b2a619efe5f",
+        "chatSessionId": "sess_3715612d-6d90-4536-948b-a5f11a24adf7",
+        "timestamp": 1784269666716
+      },
+      {
+        "executionId": "c004dfd3-6a46-482d-96c1-7b2a619efe5f",
+        "chatSessionId": "sess_3715612d-6d90-4536-948b-a5f11a24adf7",
+        "timestamp": 1784269768019
+      }
+    ],
+    "3.2 Modify `_prepare_run()` to handle dict return value": [
+      {
+        "executionId": "c004dfd3-6a46-482d-96c1-7b2a619efe5f",
+        "chatSessionId": "sess_3715612d-6d90-4536-948b-a5f11a24adf7",
+        "timestamp": 1784269647389
+      },
+      {
+        "executionId": "c004dfd3-6a46-482d-96c1-7b2a619efe5f",
+        "chatSessionId": "sess_3715612d-6d90-4536-948b-a5f11a24adf7",
+        "timestamp": 1784269769346
+      },
+      {
+        "executionId": "c004dfd3-6a46-482d-96c1-7b2a619efe5f",
+        "chatSessionId": "sess_3715612d-6d90-4536-948b-a5f11a24adf7",
+        "timestamp": 1784269905814
+      }
+    ],
+    "3.3 Verify bug condition exploration test now passes": [
+      {
+        "executionId": "c004dfd3-6a46-482d-96c1-7b2a619efe5f",
+        "chatSessionId": "sess_3715612d-6d90-4536-948b-a5f11a24adf7",
+        "timestamp": 1784269647522
+      },
+      {
+        "executionId": "c004dfd3-6a46-482d-96c1-7b2a619efe5f",
+        "chatSessionId": "sess_3715612d-6d90-4536-948b-a5f11a24adf7",
+        "timestamp": 1784269907002
+      }
+    ],
+    "3.4 Verify preservation tests still pass": [
+      {
+        "executionId": "c004dfd3-6a46-482d-96c1-7b2a619efe5f",
+        "chatSessionId": "sess_3715612d-6d90-4536-948b-a5f11a24adf7",
+        "timestamp": 1784269647597
+      },
+      {
+        "executionId": "c004dfd3-6a46-482d-96c1-7b2a619efe5f",
+        "chatSessionId": "sess_3715612d-6d90-4536-948b-a5f11a24adf7",
+        "timestamp": 1784269907892
+      }
+    ],
+    "4. Checkpoint - Ensure all tests pass": [
+      {
+        "executionId": "c004dfd3-6a46-482d-96c1-7b2a619efe5f",
+        "chatSessionId": "sess_3715612d-6d90-4536-948b-a5f11a24adf7",
+        "timestamp": 1784269647666
+      },
+      {
+        "executionId": "c004dfd3-6a46-482d-96c1-7b2a619efe5f",
+        "chatSessionId": "sess_3715612d-6d90-4536-948b-a5f11a24adf7",
+        "timestamp": 1784269908946
+      }
+    ],
+    "3. Fix for multi-SPV emails creating only one booking folder": [
+      {
+        "executionId": "c004dfd3-6a46-482d-96c1-7b2a619efe5f",
+        "chatSessionId": "sess_3715612d-6d90-4536-948b-a5f11a24adf7",
+        "timestamp": 1784269907992
+      }
+    ]
+  }
+}

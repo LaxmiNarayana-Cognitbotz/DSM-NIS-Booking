@@ -1,0 +1,44 @@
+# ── Secrets / local config ───────────────────────────────────────────────────
+llm_client.bat
+
+# Local environment / secrets (.env.example is kept as a template)
+.env
+.env.*
+!.env.example
+
+# ── SQLite tracking database (nis_booking) ───────────────────────────────────
+*.db
+*.db-wal
+*.db-shm
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# ── Runtime artifacts (logs, temp working dirs, downloaded attachments) ──────
+logs/
+temp-book/
+attachments/
+*.log
+
+# ── OS / editor cruft ────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class*.pyc
+__pycache__/

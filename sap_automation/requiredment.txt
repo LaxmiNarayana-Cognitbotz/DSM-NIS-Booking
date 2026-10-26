@@ -1,0 +1,47 @@
+# =============================================================================
+# DSM-NIS Automation Pipeline — Python Dependencies
+# =============================================================================
+# Install with:
+#   pip install -r requirements.txt
+#
+# After installing, also install Playwright browser binaries:
+#   playwright install chromium
+#
+# NOTE: pywin32 and pywinauto are Windows-only (required for SAP GUI scripting).
+#       They will fail to install on Linux/macOS — that is expected.
+#       On the Windows automation machine, install them with:
+#         pip install pywin32 pywinauto
+# =============================================================================
+
+
+# ── Microsoft Identity / Graph API ───────────────────────────────────────────
+# MSAL: acquire OAuth2 tokens for Microsoft Graph (email + SharePoint access)
+msal>=1.28.0
+
+# HTTP client used for all Microsoft Graph REST calls
+requests>=2.31.0
+
+
+# ── NIS Portal Browser Automation ────────────────────────────────────────────
+# Playwright: controls the NIS Fiori Launchpad in a Chromium/Edge browser
+playwright>=1.44.0
+
+# PDF merging library
+pypdf>=3.0.0
+
+# Excel workbook read/write for sheet-backed persistence
+openpyxl>=3.1.2
+
+# ── PostgreSQL (Azure) – only needed when DB_BACKEND=postgres ────────────────
+psycopg2-binary>=2.9.0
+
+
+# ── SAP GUI Scripting (Windows-only) ─────────────────────────────────────────
+# pywin32: COM interface to SAP GUI Scripting Engine (win32com.client)
+pywin32>=306; sys_platform == "win32"
+
+# pywinauto: keyboard/window automation used to handle SAP Log Off popup
+pywinauto>=0.6.8; sys_platform == "win32"
+
+# pyperclip: clipboard access for reliable path injection into Save-As dialogs
+pyperclip>=1.8.2
